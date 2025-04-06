@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Show</title>
+</head>
+<body>
+<p>
+  <span>User Name: </span>
+  <span  th:text="${person.getUserName()}"></span>
+</p>
+
+<p>
+  <span> User age: </span>
+  <span  th:text="${person.getAge()}"></span>
+</p>
+
+<p>
+  <span>User zip-code: </span>
+  <span  th:text="${person.getZip()}"></span>
+</p>
+</body>
+</html>
