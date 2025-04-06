@@ -26,4 +26,8 @@ public class PersonDAO {
                 .findAny()
                 .orElse(null);
     }
+
+    public void save(Person person){
+        personList.add(person);
+    }
 }
